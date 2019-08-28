@@ -1,0 +1,101 @@
+body{
+    font-family: cambria;
+    background: #eee;
+    font-size: 100%;
+    margin: auto 3%;
+    max-width: 100%;
+    height: auto;
+    color: #333;
+    text-align: justify;
+}
+p{
+    font-size: 0.8em;
+    margin-top: -1%;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.3em;
+    color: rgb(86, 86, 214);
+}
+em{
+    font-size: 0.7em;
+    color: #333;
+}
+ul li{
+    font-size: 0.9em;
+}
+span{
+    font-weight: bold;
+}
+img{
+    align-content: center;
+    margin: 3em 0 2em 33%;
+    height: 12.5em;
+    width: 33%;
+}
+#personal h1{
+    border-bottom: 5px solid #333;
+    padding: 0 0 2px 0;
+    font-size: 3em;
+}
+#personal a{
+    text-decoration: none;
+    color: rgb(86, 86, 214);
+}
+#personal a:hover{
+    color: rgb(4, 4, 95);
+    text-decoration: underline;
+}
+#details p{
+    text-transform: uppercase;
+}
+.awards-large{
+    display: none;
+}
+ @media screen and (min-width: 47.5em){
+    img{
+        border-radius: 60%;
+        margin-top: 1em;
+        height: 20em;
+        max-width: 100%;
+        float: right;
+        margin-right: 3%;
+    }
+    #content{
+        max-width: 1024px;
+        margin: auto;
+    }
+    #personal{
+        width: 60%;
+        margin-top: 2em;
+        margin-right: 3%;
+    }
+    #personal h1{
+        font-size: 3em;
+        white-space: nowrap;   
+    }
+    #personal h1 + p{
+        font-size: 1em;
+    }
+    #details{
+        clear: right;
+        width: 100%;
+    }
+    .skills{
+        float: right;
+        width: 30%;
+        margin-top: 0;
+    }
+    .awards-large{
+        display: block;
+    }
+    .exp-and-edu{
+        width: 60%;
+        margin-right: 10%;
+    }
+    .awards{
+        display: none;
+    }
+}
