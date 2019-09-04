@@ -29,7 +29,7 @@
                 <ul>
                     <li>Communication skill</li>
                     <li>Sales analysis</li>
-                    <li>Probl solving</li>
+                    <li>Problem solving</li>
                     <li>Perseverance</li>
                     <li>Team work</li>
                     <li>Time management</li>
@@ -41,13 +41,55 @@
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
-                <div class="awards-large">
+                <div class="awards-large"> <!--awards; appears only in desktop view-->
                     <h2>Awards</h2>
                         <ul>
                             <li><span>Best graduating student,</span> 2012 <br>
                                 Tai Solarin University of Education Secondary School
                             </li>
                         </ul>
+                </div>
+                <div class="contact-me awards-large">
+                    <h2>Contact Me</h2>
+                    <form action="" method="">
+                        <ul>
+                            <li>
+                                <input type="text" 
+                                        name="name"
+                                        placeholder="Your Name" 
+                                        minlength="4"
+                                        title="Your name should be at least four (4) characters long e.g. John"
+                                        id="name"
+                                        required>
+                            </li>
+                            <li>
+                                <input type="email" 
+                                        name="email" 
+                                        placeholder="Your email"
+                                        title="Please enter your email e.g. example@example.com"
+                                        id="email"
+                                        required>
+                            </li>
+                            <li>
+                                <input type="text"
+                                        name="title" 
+                                        placeholder="Message Title" 
+                                        title="Please enter subject of message content"
+                                        id="title-subject"
+                                        required>
+                            </li>
+                            <li>
+                                <textarea name="message" 
+                                    placeholder="Enter your message, at least twenty (20) characters long" 
+                                    rows="7" cols="40"
+                                    minlength="20"
+                                    title="Your message should be at least twenty (20) characters long"
+                                    id="message"
+                                    required></textarea>
+                            </li>
+                            <input type="submit" value="Send Message"> <input type="reset" value="Reset">
+                        </ul>
+                    </form>
                 </div>
             </div>
             <!--my work experience-->
@@ -134,7 +176,56 @@
                         </li>
                     </ul>
             </div>
+            <div class="contact-me awards">
+                <h2>Contact Me</h2>
+                <form action="" method="">
+                    <ul>
+                        <li>
+                            <input type="text" 
+                                    name="name"
+                                    placeholder="Your Name" 
+                                    minlength="4"
+                                    title="Your name should be at least four (4) characters long e.g. John"
+                                    id="name"
+                                    required>
+                        </li>
+                        <li>
+                            <input type="email" 
+                                    name="email" 
+                                    placeholder="Your email"
+                                    title="Please enter your email e.g. example@example.com"
+                                    id="email"
+                                    required>
+                        </li>
+                        <li>
+                            <input type="text"
+                                    name="title" 
+                                    placeholder="Message Title" 
+                                    title="Please enter subject of message content"
+                                    id="title-subject"
+                                    required>
+                        </li>
+                        <li>
+                            <textarea name="message" 
+                                placeholder="Enter your message, at least twenty (20) characters long" 
+                                rows="7" cols="40"
+                                minlength="20"
+                                title="Your message should be at least twenty (20) characters long"
+                                id="message"
+                                required></textarea>
+                        </li>
+                        <input type="submit" value="Send Message" id="submit">
+                        <input type="reset" value="Reset">
+                    </ul>
+                </form>
+            </div>
         </div>
     </div>
+    <script>
+        //thank you message that displays upon submission
+        window.onsubmit = function (thanks){
+            alert("Thanks for contacting me!!!");
+        }
+    </script>
 </body>
 </html>
