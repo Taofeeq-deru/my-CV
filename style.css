@@ -1,7 +1,7 @@
 body{
     font-family: cambria;
     background: #eee;
-    font-size: 100%;
+    font-size: 70%;
     margin: auto 3%;
     max-width: 100%;
     height: auto;
@@ -54,7 +54,48 @@ img{
 .awards-large{
     display: none;
 }
+.contact-me form{
+    margin-left: -10%;
+}
+.contact-me ul li{
+    list-style-type: none;
+    padding: 1em;
+}
+.contact-me input[type="text"]{
+    width: 50%;
+    height: 1.5em;
+}
+.contact-me input[type="email"]{
+    width: 50%;
+    height: 1.5em;
+}
+.contact-me input[type="submit"]{
+    width: 30%;
+    height: 2.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgb(86, 86, 214);
+    border: none;
+    border-radius: 1em;
+    color: #fff;
+}
+.contact-me input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(4, 4, 95); 
+}
+.contact-me input[type="reset"]:hover{
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+    border: none;
+}
+.contact-me textarea{
+    resize: none;
+}
  @media screen and (min-width: 47.5em){
+    body{
+        font-size: 100%;
+    }
     img{
         border-radius: 60%;
         margin-top: 1em;
@@ -97,5 +138,21 @@ img{
     }
     .awards{
         display: none;
+    }
+    .contact-me form{
+        margin-left: -15%;
+    }
+    .contact-me input[type="text"]{
+        width: 85%;
+    }
+    .contact-me input[type="email"]{
+        width: 85%;
+    }
+    .contact-me input[type="submit"]{
+        width: 50%;
+        margin: 0 4% 0 4%;
+    }
+    .contact-me textarea{
+        width: 100%;
     }
 }
