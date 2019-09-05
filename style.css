@@ -72,8 +72,7 @@ img{
 .contact-me input[type="submit"]{
     width: 30%;
     height: 2.5em;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 3%;
     background: rgb(86, 86, 214);
     border: none;
     border-radius: 1em;
@@ -150,7 +149,7 @@ img{
     }
     .contact-me input[type="submit"]{
         width: 50%;
-        margin: 0 4% 0 4%;
+        margin: 3% 4% 0 4%;
     }
     .contact-me textarea{
         width: 100%;
